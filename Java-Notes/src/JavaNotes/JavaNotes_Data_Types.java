@@ -3,14 +3,14 @@ package JavaNotes;
 // meaning everything inside of something called classes, and
 // everything is known as objects
 
-// int means integer any # that is not a decimal
-// double means floating decimal point
+// int means integer any # that is not a decimal and will give you only whole numbers
+// double means floating decimal point and will give you decimal in equations
 // boolean true or false
 // char represent any character or letter that's in = '' and CAN BE ONLY 1 letter
 // String has to be in double quotation marks = " "
 // _ represent a space
 // variables holds value
-public class JavaNotes {
+public class JavaNotes_Data_Types {
 
     public static void main(String[] args) {      //  This is called a method
         // TOD Auto-generated method stub
@@ -32,11 +32,14 @@ public class JavaNotes {
         // PEMDAS: Parentheses, Exponents, Multiplication, and Division (from left to right),
         // Addition and Subtraction (from left to right).
         int x = 5;
-        int y = 7;
-        int z = 56;
-        int sum = x + y + z;
+        double y = 7;
+        int z = 57;
+//        double u = x * y;
+//        double d = Math.pow(x,y); // exponents needs to be in double
+        double u = x / (double)y;
+        System.out.println(u);
 
-        System.out.println(sum);
+        // typecasting changing inline, without changing the declaration
 
     }
 }
