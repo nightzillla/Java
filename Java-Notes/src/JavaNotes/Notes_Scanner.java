@@ -2,7 +2,7 @@ package JavaNotes;
 import java.util.Scanner;
 
 
-public class Notes {
+public class Notes_Scanner {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);      // sc is a data type
         String scanned = sc.next();              // this prints-outs strings
