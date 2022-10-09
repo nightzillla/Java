@@ -5,6 +5,7 @@ public class Notes_If_Else {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
+        int x = 4;
         // s.equals("hello"); use this to compare two strings
         // if you have a if, else if , else
         // else has to be the last else if

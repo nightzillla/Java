@@ -25,7 +25,7 @@ public class JavaNotes_Data_Types {
 
         int tim = hello_world;
 
-        System.out.println(tim);          // this prints out 5
+        System.out.println();          // this prints out 5
 
         int a;
         a = 6; // have to initialized it first
