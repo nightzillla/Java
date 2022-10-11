@@ -1,4 +1,5 @@
 package JavaNotes;
+import java.util.HashSet;
 import java.util.Scanner;
 
 public class Notes_Array {
